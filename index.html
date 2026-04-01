@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <title>MSR | Aapka Bazaar ab aapke ghar</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
 
+ <header class="navbar">
+ <h1 class="logo">MSR</h1>
+ <nav>
+ <a href="#">Home</a>
+ <a href="#">Categories</a>
+ <a href="#">Cart (<span id="cart-count">0</span>)</a>
+ </nav>
+ </header>
+
+ <section class="hero">
+ <h2>Aapka Bazaar ab aapke ghar</h2>
+ <p>Fresh groceries delivered in minutes</p>
+ <button>Shop Now</button>
+ </section>
+
+ <section class="products">
+ <h2>Daily Essentials</h2>
+ <div class="product-grid">
+ <div class="product-card">
+ <h3>Fresh Apples</h3>
+ <p>₹120 / kg</p>
+ <button onclick="addToCart()">Add to Cart</button>
+ </div>
+
+ <div class="product-card">
+ <h3>Milk</h3>
+ <p>₹55 / litre</p>
+ <button onclick="addToCart()">Add to Cart</button>
+ </div>
+
+ <div class="product-card">
+ <h3>Bread</h3>
+ <p>₹40</p>
+ <button onclick="addToCart()">Add to Cart</button>
+ </div>
+
+ <div class="product-card">
+ <h3>Vegetables Pack</h3>
+ <p>₹99</p>
+ <button onclick="addToCart()">Add to Cart</button>
+ </div>
+ </div>
+ </section>
+
+ <footer>
+ <p>© 2026 MSR. Fast & Reliable Delivery.</p>
+ </footer>
+
+ <script src="script.js"></script>
+ </body>
+   </html>
